@@ -42,6 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rotate In"
+        android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/btnshuffle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -51,6 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fall Down"
+        android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/btnRotateIn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -60,6 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Scale Up"
+        android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/btnFallDown"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -68,6 +71,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Slide In"
+      android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/btnScaleUP"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
